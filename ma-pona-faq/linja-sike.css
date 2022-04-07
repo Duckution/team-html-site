@@ -1,0 +1,8 @@
+@font-face {
+	font-family: linjasike5;
+	src: url(https://wyub.github.io/tokipona/linja-sike-5.otf);
+  }
+
+.sp {
+	font-family: linjasike5;
+}

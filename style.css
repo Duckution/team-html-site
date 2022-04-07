@@ -1,0 +1,54 @@
+html {
+	font-family: "Hack", monospace;
+	max-width: 38rem;
+	padding: 2rem;
+	margin: auto;
+	line-height: 1.5;
+}
+
+@media only screen and (max-device-width: 736px) {
+	main {
+		padding: 0.2rem;
+	}
+}
+
+::selection {
+	background: #8e86d3;
+  }
+
+body {
+	background: #303030;
+	color: #E8E6E2;
+}
+
+pre {
+	background-color: #323338;
+	padding: 1em;
+	border: 0;
+}
+
+a,
+a:active,
+a:visited {
+	color: #b5d3e7;
+	background-color: #202020;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin-bottom: 0.1rem;
+}
+
+ul { list-style-type: "-> "; }
+
+footer {
+	text-align: center;
+}
+
+.title {
+	text-decoration: underline;
+	margin-top: 2rem;
+}
