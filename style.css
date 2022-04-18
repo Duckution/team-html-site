@@ -1,15 +1,11 @@
-html {
-	font-family: "Hack", monospace;
-	max-width: 38rem;
-	padding: 2rem;
-	margin: auto;
-	line-height: 1.5;
-}
-
 @media only screen and (max-device-width: 736px) {
 	main {
 		padding: 0.2rem;
 	}
+}
+
+html {
+	background-color: #282828;
 }
 
 ::selection {
@@ -17,8 +13,16 @@ html {
   }
 
 body {
+	font-family: "Hack", monospace;
+	max-width: 38rem;
+	padding: 2rem;
+	padding-top: 0.5rem;
+	margin: auto;
+	line-height: 1.5;
 	background: #303030;
 	color: #E8E6E2;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 pre {
