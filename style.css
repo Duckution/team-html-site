@@ -1,9 +1,3 @@
-@media only screen and (max-device-width: 736px) {
-	main {
-		padding: 0.2rem;
-	}
-}
-
 html {
 	background-color: #282828;
 }
@@ -23,6 +17,12 @@ body {
 	color: #E8E6E2;
 	margin-top: 1em;
 	margin-bottom: 1em;
+}
+
+@media only screen and (max-device-width: 736px) {
+	main {
+		padding: 0.2rem;
+	}
 }
 
 pre {
