@@ -8,7 +8,7 @@ html {
 
 body {
 	font-family: "Hack", monospace;
-	max-width: 38rem;
+	max-width: 45rem;
 	padding: 2rem;
 	padding-top: 0.5rem;
 	margin: auto;
@@ -34,7 +34,13 @@ pre {
 a,
 a:active,
 a:visited {
-	color: #b5d3e7;
+	color: #BAF6FF;
+	background-color: #202020;
+}
+
+code {
+	color: #BAF6FF;
+	font-family: "Hack", monospace;
 	background-color: #202020;
 }
 
